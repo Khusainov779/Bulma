@@ -1,0 +1,142 @@
+body::-webkit-scrollbar  {
+    width: 0.2em;
+}
+
+::-webkit-scrollbar-thumb { 
+    background-color: #4A4A4A;
+ }
+ body::-webkit-scrollbar-track {
+    background-color: #DBDBDB;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-family: 'Concert One', 'Impact', sans-serif;
+}
+
+#logo {
+    color: #00D1B2;
+}
+
+.showcase-icon {
+    font-size: 12rem
+}
+
+#address p {
+    margin-bottom: 1rem;
+}
+
+#address i {
+    margin-right: 1rem;
+}
+
+.client-icon {
+    font-size: 10rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.service .fa-html5, .service .fa-database, .service .fa-mobile {
+    font-size: 15rem;
+}
+
+table {
+    margin-top: 2rem;
+}
+
+table caption {
+    margin-bottom: 0.5rem;
+}
+ /* .about-page div img {
+    height: 10rem;
+}  */
+@media only screen and (min-width: 1280px) {
+    .is-two-fifth img {
+        margin-left: 15%;
+        height: 300px;
+        width: 300px;
+    }
+
+    .column-padded {
+        padding: 150px;
+    }
+    .column-padded p {
+        font-size: 1.5rem;
+    }
+    #success-message {
+        font-size: 4rem;
+        color: #00D1B2;
+        padding-top: 10%;
+        text-align: center;
+    }
+    #success-message i {
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .column-padded p, .column-padded h1 {
+        text-align: center;
+    }
+    #success-message {
+        font-size: 3rem;
+        color: #00D1B2;
+        padding-top: 15%;
+        text-align: center;
+    }
+    #success-message i {
+        font-size: 5rem;
+    }
+}
+
+.column-padded .button {
+    margin-top: 1.5rem;
+}
+
+.is-flex-mobile {
+    margin-bottom: 7px;
+}
+
+
+.step-icons {
+    font-size: 5rem;
+}
+
+.criterias li {
+    list-style-type: square;
+    list-style-position: inside;    
+}
+
+#not-found-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: #2a2a39;
+}
+
+#not-found-message {
+    font-size: 7rem;
+    color: #f75454;
+    padding-top: 15%;
+    text-align: center;
+  }
+
+#success-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: #2a2a39;
+}
+
+
+
+#redirect-text {
+    color: rgb(146, 146, 146);
+}
+/***********************************REFERENCEs***********************************
+https://css-tricks.com/custom-scrollbars-in-webkit/ --SCROLLBAR 
+https://www.flaticon.com/packs/business-collection-3  --BUSINESS COLLECTION SVG ICONS
+https://www.flaticon.com/packs/online-marketing-elements
+https://www.flaticon.com/packs/seo-and-online-marketing-elements
+*/
+
